@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/ChristianMacDonald/webauth-iii-challenge/issues"
   },
-  "homepage": "https://github.com/ChristianMacDonald/webauth-iii-challenge#readme"
+  "homepage": "https://github.com/ChristianMacDonald/webauth-iii-challenge#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.19.2",
+    "sqlite3": "^4.1.0"
+  }
 }
