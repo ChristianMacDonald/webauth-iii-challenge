@@ -2,7 +2,7 @@ const db = require('../data/dbConfig');
 
 function get(id = 0) {
     if (id) {
-        return db('users').where({ id });
+        return db('users').where({ id }).first();
     } else {
         return db('users');
     }
